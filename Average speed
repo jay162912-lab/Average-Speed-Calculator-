@@ -1,0 +1,29 @@
+print("Average Speed Calculator")
+distance = 812.5 #this should be remained as a float or int
+time_type = "Minute" #Either Hour or Minute
+
+if time_type == "Hour":
+    minutes = 1932
+    hour_calc = round(minutes / 60, 2)
+    final_calc = round(distance / hour_calc, 2)
+
+    print(f"Time Type: {time_type}")
+    print(f"Distance: {distance} km")
+    print(f"Minutes Taken: {minutes} min")
+    print(f"Converted to Hour: {hour_calc} hrs")
+    print(f"Average Speed: {final_calc} km/h")
+
+elif time_type == "Minute":
+    hours = 0.2
+    min_calc = round(hours * 60, 2)
+    finally_calc = round(distance / min_calc, 2)
+
+    print(f"Time Type: {time_type}")
+    print(f"Distance: {distance} km")
+    print(f"Hours Taken: {hours} hours")
+    print(f"Converted to Minutes: {min_calc} min")
+    print(f"Average Speed: {finally_calc} km/h")
+
+
+
+
